@@ -57,6 +57,7 @@ header{
 
 .navlist a:hover{
     color: var(--main-color);
+    
 }
 
 #menu-icon{
@@ -67,6 +68,15 @@ header{
 
 section{
     padding: 75px 16.7%;
+}
+
+
+
+.nav-item:hover{
+    text-decoration: underline;
+    color: green;
+    font-weight: bold;
+    
 }
 
 .home{
@@ -186,6 +196,7 @@ span{
    grid-gap: 2rem;
    align-items: center;
    margin-top: 4rem;
+   
 }
 
 .row{
@@ -208,12 +219,14 @@ span{
     font-size: 1.6rem;
     font-weight: 500;
     color: var(--text-color);
+    
 }
 
 .row p{
     color: #717173;
     font-size: 18px;
     line-height: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .row:hover{
@@ -248,51 +261,51 @@ span{
 }
 
 .box-one{
-    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(IMG_20220322_215303453.jpg) center center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(pexels-jorge-jesus-137537-614117.jpg) center center no-repeat ;
     background-size: 500px;
 }
 .box-one:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(IMG_20220322_215303453.jpg)left center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(pexels-jorge-jesus-137537-614117.jpg)left center no-repeat ;
     background-size: 600px;
 }
 .box-two{
-    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(1.png) center center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(pexels-obsahovka-obsahovka-1947041-4449800.jpg) center center no-repeat ;
     background-size: 500px;
 }
 .box-two:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(1.png)left center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(pexels-obsahovka-obsahovka-1947041-4449800.jpg)left center no-repeat ;
     background-size: 600px;
 }
 .box-three{
-    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(2.jpg) center center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(pexels-olia-danilevich-4974914.jpg) center center no-repeat ;
     background-size: 500px;
 }
 .box-three:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(2.jpg)left center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(pexels-olia-danilevich-4974914.jpg)left center no-repeat ;
     background-size: 600px;
 }
 .box-four{
-    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(3.jpg) center center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(pexels-mikhail-nilov-7583935.jpg) center center no-repeat ;
     background-size: 500px;
 }
 .box-four:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(3.jpg)left center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(pexels-mikhail-nilov-7583935.jpg)left center no-repeat ;
     background-size: 600px;
 }
 .box-five{
-    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(4.jpg) center center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(pexels-cottonbro-6963585.jpg) center center no-repeat ;
     background-size: 500px;
 }
 .box-five:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(4.jpg)left center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(pexels-cottonbro-6963585.jpg)left center no-repeat ;
     background-size: 600px;
 }
 .box-six{
-    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(0fgjhs482ea95m3od.jpg) center center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(pexels-tolgraw-photography-445047051-20225918.jpg) center center no-repeat ;
     background-size: 500px;
 }
 .box-six:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(0fgjhs482ea95m3od.jpg)left center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(pexels-tolgraw-photography-445047051-20225918.jpg)left center no-repeat ;
     background-size: 600px;
 }
 
@@ -304,13 +317,13 @@ span{
 
 .inner h6{
     color: #c6c9d8;
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 1.7;
-    font-weight: 500;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 .inner h3{
-    font-size: 1.7rem;
+    font-size: 1rem;
     color: white;
     font-weight: 600;
     line-height: 1.6;
@@ -463,6 +476,11 @@ span{
     }
     .cta-btn p{
         margin-bottom: 30px;
+    }
+    .cta-btn a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     }
 }
 
