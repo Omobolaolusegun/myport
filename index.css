@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Popins', sans-serif;
     list-style: none;text-decoration: none;
     scroll-behavior: smooth;
 
@@ -16,8 +17,114 @@
     --h2-font: 2.26rem;
     --p-font: 1.1rem;
 }
-
 body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+   font-size: 2.5rem;
+   font-weight: 700;
+}
+
+h2{
+   font-size: 1.8rem;
+   font-weight: 600;
+}
+
+h3{
+     font-size: 1.4rem;
+     font-weight: 500;
+}
+
+h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+
+h6{
+    color: #D8D8D8;
+}
+
+
+
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+
+}
+
+/* button:hover{
+    background-color: #D8D8D8;
+} */
+
+/* .navbar-toggler{
+    width: 5px;
+} */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    font-size: 16px;
+    top: 0;
+    left: 0;
+}
+
+.navbar-light .navbar-nav{
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active
+{
+  color: coral;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 0 20px;
+    font-size: 1.6rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.navbar ul li a{
+    /* border: thick solid red; */
+    /* display: flex; */
+    justify-content: end;
+    align-items: end;
+    /* padding: 0px 10px; */
+    margin: 7px 50px;
+} 
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+ body{
     background: var(--bg-color);
     color: var(--text-color);
 }
@@ -77,11 +184,16 @@ section{
     color: green;
     font-weight: bold;
     
-}
+} 
+/* 
+.logo{
+    font-size: 2.2em;
+    font-weight: 700;
+} */
 
 .home{
     width: 100%;
-    min-height: 45vh;
+    min-height: 95vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5rem;
@@ -261,11 +373,11 @@ span{
 }
 
 .box-one{
-    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(pexels-jorge-jesus-137537-614117.jpg) center center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(uip.jpg) center center no-repeat ;
     background-size: 500px;
 }
 .box-one:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(pexels-jorge-jesus-137537-614117.jpg)left center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(uip1.jpg)left center no-repeat ;
     background-size: 600px;
 }
 .box-two{
@@ -301,11 +413,11 @@ span{
     background-size: 600px;
 }
 .box-six{
-    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(pexels-tolgraw-photography-445047051-20225918.jpg) center center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(uip3.jpg) center center no-repeat ;
     background-size: 500px;
 }
 .box-six:hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(pexels-tolgraw-photography-445047051-20225918.jpg)left center no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(uip3.jpg)left center no-repeat ;
     background-size: 600px;
 }
 
@@ -531,6 +643,13 @@ span{
     }
     .about-img{
         order: 2;
+    }
+    
+}
+
+@media (max-width: 667px) {
+    .cta-btn a{
+        width: 100%;
     }
 }
 
