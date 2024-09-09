@@ -108,14 +108,18 @@ button{
 }
 
 
+<<<<<<< HEAD
 #header{
+=======
+/* #header{
+>>>>>>> f82a1e763b254bf057968080278127a260a0989c
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 80px;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
+} */
 
  body{
     background: var(--bg-color);
