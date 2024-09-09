@@ -107,14 +107,7 @@ button{
     transition: 0.3s ease;
 }
 
-.navbar ul li a{
-    /* border: thick solid red; */
-    /* display: flex; */
-    justify-content: end;
-    align-items: end;
-    /* padding: 0px 10px; */
-    margin: 7px 50px;
-} 
+
 #header{
     display: flex;
     align-items: center;
@@ -146,6 +139,7 @@ header{
 .logo{
     font-size: 2.2rem;
     font-weight: 600;
+    width: 100px;
     color: var(--main-color);
 }
 
